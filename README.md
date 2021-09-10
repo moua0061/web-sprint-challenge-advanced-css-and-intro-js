@@ -23,10 +23,22 @@ Commit your code regularly and meaningfully.
 Please answer the following questions below, you may edit the readme file to include your answers below the question.
 
 1. How would you describe acessibility on the web to someone new to programming?
+    Accessibility is when you create your content or site for all audiences of the users. Meaning you are not only targeting one general audience, you need to 
+    think about other users who may have disabilities/conditions or have settings set different than the average user. There are more than one type of users 
+    on the internet and you need to make your site more welcoming to these users.
 2. Talk about 3 different things you can do to ensure your website is accessible. 
+    I would change my font size from pixels to percentage so it accommodate users with vision problems.
+    I would change my margin and padding spaces to percentage as well to accommodate anyone with disabilities.
+    I would use 'alt' in all my images to be more descriptive. 
 3. How would you explain the concept of a variable to someone new to programming?
+    A variable is like an empty box. It has no value in it unless you put something in it and label it. You add more stuff to the box later or you can
+    take it out of the box. You can also change the name or label of the box(es) later down the road. But there are some boxes that will not let you 
+    change the name of the boxes so you won't name another box the same name. 
 4. What is the purpose of using functions in code?
+    Functions are blocks of codes that can be used over and over again. They have data inside of these blocks and return a result. When you want to 
+    use the function again, you can call it whenever you want to do that specific thing you want it to do. 
 5. How do you access a key inside of an object inside of an array?
+    To access a key inside of an object: const object.name using the dot notation or const object['name'] using the bracket notation.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
