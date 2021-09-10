@@ -249,13 +249,6 @@ If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
 function get20s(arr) {
   /*Your Code Here*/
   let newArr = [];
-  for (let i = 0; i < arr.length; i++) {
-    const yearBorn = arr[i].year.split('-');
-    const yearDied = arr[i].year.split('-');
-    if (arr[i].years > 1900 && arr[i].years < 2000) {
-      newArr.push(arr[i].name);
-    }
-  } return newArr;
 }
 
 
@@ -291,7 +284,7 @@ Use addArtist to do the following:
 
 Example: addArtist(artists) should return the artists array with the above object added to the end of the array. */
 
-function addArtist(/*Your Code Here*/) {
+function addArtist(arr) {
   /*Your Code Here*/
 }
 
