@@ -263,9 +263,10 @@ For example, if removeArtist is invoked with the artists array and the number 0,
 
 function removeArtist(arr, num) {
   /*Your Code Here*/
-  delete arr[num];
+  arr.splice(num,1);
   return arr.length;
 }
+
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
@@ -286,6 +287,7 @@ Example: addArtist(artists) should return the artists array with the above objec
 
 function addArtist(arr) {
   /*Your Code Here*/
+  
 }
 
 
