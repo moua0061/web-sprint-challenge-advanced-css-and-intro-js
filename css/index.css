@@ -18,15 +18,18 @@ border: 0;
 font-size: 100%;  
 font: inherit;  
 vertical-align: baseline;  
+border: 1px red solid;
 }
 /*GENERAL STYLES*/
 html{
     font-size:62.5%;
+    
 }
 body{
     font-size:1.6rem;
     line-height: 1.5;
     font-family: 'Raleway', sans-serif;	
+    
 }
 h1, p, .name, .bio {	
     font-family: 'Raleway', sans-serif;	
@@ -133,4 +136,18 @@ button:hover{
 }
 .artist img{
     width:100%;
+}
+
+
+/* media queries */
+/* for mobile */
+
+@media(max-width:500px){
+    .title-container div{		
+        /* bg-img needs to not be center */
+    }
+    .artists-container{
+        display: flex;
+        flex-direction: column;
+    }
 }
