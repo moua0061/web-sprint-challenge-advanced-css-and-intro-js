@@ -18,7 +18,6 @@ border: 0;
 font-size: 100%;  
 font: inherit;  
 vertical-align: baseline;  
-border: 1px red solid;
 }
 /*GENERAL STYLES*/
 html{
@@ -143,11 +142,35 @@ button:hover{
 /* for mobile */
 
 @media(max-width:500px){
-    .title-container div{		
-        /* bg-img needs to not be center */
+    body{
+        font-size: 1rem;
     }
+    h1{
+        font-size: 3rem;
+    }
+    a{
+        font-size: 1.25rem;
+    }
+    nav span{
+        border-left:1px solid #626262;
+    }
+    .title-container div{		
+        height:40vh;
+        width:100%;
+        margin-bottom:2%;
+        background-repeat: no-repeat;
+        background-position-y:60%;
+    }
+    
     .artists-container{
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
+    .artist{
+        width:80%;
+    }
+    .artist img{
+        width:60%;
+        height:20vh;
 }
