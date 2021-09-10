@@ -248,15 +248,12 @@ If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
 
 function get20s(arr) {
   /*Your Code Here*/
-  let newArr = []; // new variable where the final array will output
-  for (let i = 0; i < arr.length; i++){ //need for loop to run through the arrays to find the artists
-    let artistYears = arr[i].years.split(' '); // this splits the years with [i] with spaces....
-    // '1999 - 2001' should be '1999', '-', '2001' ??????
-      // will the above be 3 indexes??? try
-    // need new variables for both years in the step above artistsYears
-    let yearBorn = artistYears[0];
+  let newArr = []; 
+  for (let i = 0; i < arr.length; i++){ 
+    let artistYears = arr[i].years.split(' '); 
+    let yearBorn = artistYears[0]; 
     let yearDied = artistYears[2];
-    if (yearBorn > 1900 && yearBorn < 2000 && yearDied > 1900 && yearDied < 2000){ // need to compare new variables
+    if (yearBorn > 1900 && yearBorn < 2000 && yearDied > 1900 && yearDied < 2000){ 
       newArr.push(arr[i].name);
     }
   } return newArr;
