@@ -250,6 +250,8 @@ function get20s(arr) {
   /*Your Code Here*/
   let newArr = [];
   for (let i = 0; i < arr.length; i++) {
+    const yearBorn = arr[i].year.split('-');
+    const yearDied = arr[i].year.split('-');
     if (arr[i].years > 1900 && arr[i].years < 2000) {
       newArr.push(arr[i].name);
     }
@@ -266,8 +268,10 @@ Use removeArtist to do the following:
 
 For example, if removeArtist is invoked with the artists array and the number 0, it will remove Amedeo Modigliani from our dataset and return the number 19. */
 
-function removeArtist(/*Your Code Here*/) {
+function removeArtist(arr, num) {
   /*Your Code Here*/
+  delete arr[num];
+  return arr.length;
 }
 
 
